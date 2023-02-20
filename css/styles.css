@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(225deg, #ffda44 0, #ebdc3c 8.33%, #d3dc36 16.67%, #b9dc34 25%, #9bdb36 33.33%, #78d83a 41.67%, #49d442 50%, #00d04c 58.33%, #00cb5a 66.67%, #00c76a 75%, #00c37b 83.33%, #00bf8e 91.67%, #00bca2 100%);
+    text-align: justify;
+    padding: 2% 3% 5% 3%;
+    scroll-behavior: smooth;
+}
+.titulo{
+    text-align: center;
+    font-weight: 700;
+}
+
+#navbar{
+    position: fixed;
+}
+.nav-link{
+    text-decoration: none !important;
+}
+.portada ,.introduccion, .inflacion, .colombia, .comparacion, .conclusiones{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px black;
+    margin-bottom: 20px;
+}
+.tituloPortada{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10%;
+}
+.nombres{
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-weight: 600;
+}
+.universidad{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.portada{
+    margin-bottom: 20%;
+}
